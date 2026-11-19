@@ -6,7 +6,19 @@ public class Conta implements Imprimivel {
     String titular;
     double saldo;
 
-    public void imprimir() {
-        System.out.println("Pimpim");
+    public Conta(String titular) {
+        this.titular = titular;
     }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public String getTitular() {
+        return titular;
+    }
+
+    public void imprimir() {
+    }
+
 }
